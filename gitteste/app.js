@@ -1,4 +1,4 @@
-let limite = 10;
+let limite = 100;
 let nsortedos = [];
 let nsecreto = rng();  
 let tentativas = 1;
@@ -19,7 +19,7 @@ function exibirTextonatela (tag,texto){
 
 function exibirMensagemInicial(){
     exibirTextonatela('h1','Jogo do número secreto');
-    exibirTextonatela('p','Tente advinhar o número, de 1 a 10');
+    exibirTextonatela('p','Tente advinhar o número, de 1 a 100');
 }
 exibirMensagemInicial();
 
